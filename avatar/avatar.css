@@ -1,0 +1,68 @@
+@import url("/pages/docs.css");
+
+/********************* avatar*************** */
+
+
+.main--content--introduction{
+    color: var(--WHITE);
+   font-weight: lighter;
+   font-size: large;
+   padding: 2rem;
+   margin-left: 2rem;
+}
+
+
+
+.avatar--container {
+    border: 1px solid var(--GRAY-80);
+    padding: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    max-width: 80%;
+    width: auto; ;
+    border-radius: 0.2rem;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    /* border: 1px solid var(--BLUE); */
+}
+
+.avatar--small {
+    width: 30px;
+    height: 30px;
+}
+
+.avatar--large {
+    width: 100px;
+    height: 100px;
+}
+
+.avatar--xlarge {
+    width: 150px;
+    height: 150px;
+}
+
+.avatar--xxlarge {
+    width: 200px;
+    height: 200px;
+}
+
+.square{
+    border-radius: 3px;
+}
+
+.avatar--text {
+    font-size: 35px;
+    color: var(--WHITE);
+    text-align: center;
+    background-color: var(--GREEN);
+    padding: 20px;
+    border-radius: 50%;
+    font-weight: 600;
+}
