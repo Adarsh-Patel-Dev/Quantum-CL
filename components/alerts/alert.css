@@ -1,0 +1,46 @@
+@import url("/index.css");
+@import url("/pages/docs.css");
+
+.alert {
+    width: auto;
+    min-width: 40rem;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem auto;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+
+.alerts{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border: 1px solid var(--GREEN);
+    color: var(--GREEN);
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border: 1px solid var(--BLUE);
+    color: var(--BLUE);
+}
+
+.alert-warning {
+    background-color: #fcf8e3;
+    border: 1px solid var(--ORANGE);
+    color: var(--ORANGE);
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border: 1px solid var(--RED);
+    color: var(--RED);
+}
