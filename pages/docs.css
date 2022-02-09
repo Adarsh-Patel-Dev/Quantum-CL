@@ -1,0 +1,139 @@
+@import url("/index.css");
+
+body {
+    background: #1B1B1B;
+}
+
+.aside--container {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    height: auto;
+    left: 0px;
+    padding: 0rem 4rem 1rem 4rem;
+    color: white;
+
+    background: linear-gradient(184.47deg, #151515 -1.58%, #010101 120.78%)
+}
+
+.aside--title {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 2rem 0rem;
+    color: var(--GRAY50);
+}
+
+.aside--link {
+    color: var(--WHITE);
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.aside--link:hover {
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--GRAY50);
+    transition: 0.5s;
+    border: none;
+    border-bottom: 2px solid var(--GRAY50);
+
+}
+
+.aside--item {
+    font-size: initial;
+    padding: 1.2rem;
+}
+
+.divider {
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 1px;
+    border: 0.6px solid #292929;
+}
+
+
+.body--container {
+    display: flex;
+    flex-direction: row;
+    color: inherit;
+}
+
+code {
+    background: #292929;
+    border-radius: 0.4rem;
+    font-size: 75%;
+    margin: 0 0.2rem;
+    padding: 0.1rem 0.4rem;
+    white-space: nowrap;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.code--container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 62vh;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #1B1B1B;
+    color: white;
+}
+
+.main--content{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-left: 3rem;
+    color: rgb(177, 174, 174);
+    padding: 20px;
+    /* margin: 3rem; */
+}
+
+.intoduction--heading,
+.introduction--para {
+    padding: 20px 20px;
+}
+
+.component--box {
+    border: 1px solid #292929;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.heading {
+    color: white;
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+
+}
+
+h1{
+    font: size 49px;
+}
+
+h2{
+    font: size 36px;
+}
+
+h3{
+    font: size 28px;
+}
+
+h4{
+    font: size 22px;
+}
+
+h5{
+    font: size 18px;
+}
+
+h6{
+    font: size 16px;
+}
