@@ -33,23 +33,23 @@
 }
 
 .avatar--small {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
 }
 
 .avatar--large {
-    width: 100px;
-    height: 100px;
+    width: 9rem;
+    height: 9rem;
 }
 
 .avatar--xlarge {
-    width: 150px;
-    height: 150px;
+    width: 12rem;
+    height: 12rem;
 }
 
 .avatar--xxlarge {
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
 }
 
 .square{
