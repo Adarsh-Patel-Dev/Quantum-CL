@@ -16,9 +16,8 @@
 
 .btn {
     padding: 1rem 2rem;
-    font-family: 'Montserrat', sans-serif;;
-    border: 1px solid var(--BLUE);
-    background-color: var(--BLUE);
+    font-family: 'Montserrat', sans-serif; 
+    border-width: 1px solid ;
     color: var(--WHITE);
     font-size: 1.5rem;
     font-weight: 400;
@@ -27,41 +26,77 @@
 
 .btn--primary {
     background-color: var(--GREEN-50);
-    border: 1px solid var(--GREEN);
+    border-color:  var(--GREEN);
+    transition: 0.5s;
+}
+
+.btn--primary:hover {
+    background-color:transparent;
+    border-color:  var(--GREEN);
+    transition: 0.5s;
 }
 
 .btn--info {
     background-color: var(--BLUE-50);
-    border: 1px solid var(--BLUE-50);
+    border-color: var(--BLUE-50);
+    transition: 0.5s;
+}
+
+.btn--info:hover {
+    background-color: transparent;
+    border-color: var(--BLUE-50);
+    transition: 0.5s;
 }
 
 .btn--success {
     background-color: var(--GREEN-50);
-    border: 1px solid var(--GREEN);
+    border-color: var(--GREEN);
+    transition: 0.5s;
+}
+
+.btn--success:hover {
+    background-color: transparent;
+    border-color: var(--GREEN);
+    transition: 0.5s;
 }
 
 .btn--warning {
     background-color: var(--ORANGE-50);
-    border: 1px solid var(--ORANGE);
+    border-color: var(--ORANGE);
+    transition: 0.5s;
+}
+
+.btn--warning:hover {
+    background-color: transparent;
+    border-color: var(--ORANGE);
+    transition: 0.5s;
 }
 
 .btn--danger {
     background-color: var(--RED-50);
-    border: 1px solid var(--RED);
+    border-color: var(--RED);
+    transition: 0.5s;
 }
+
+.btn--danger:hover {
+    background-color: transparent;
+    border-color: var(--RED);
+    transition: 0.5s;
+}
+
 
 .btn--outline {
     background-color: transparent;
 }
 
+
 .btn--round {
     border-radius: 50px;
-    /* border: none; */
 }
 
 
 .btn--outline:hover {
-    background-color: inherit;
+    background-color: var(--GRAY-80);
     color: var(--WHITE);
 }
 
@@ -70,7 +105,7 @@
     border: none;
     color: var(--WHITE);
     font-size: 20px;
-    cursor: pointer;
+    cursor: no-drop;
 }
 
 .btn-link{
