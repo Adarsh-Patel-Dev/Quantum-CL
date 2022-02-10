@@ -16,13 +16,17 @@ html{
     font-family: 'Montserrat', sans-serif;
 
     --RED: #ff0000;
-    --GREEN: #00ff00;
-    --ORANGE: #ce8602;
-    --BLUE: #0000ff7e;
     --RED-50: #f75353;
+    --RED-20: #f2dede;
+    --GREEN: #00ff00;
     --GREEN-50: #51f751d2;
+    --GREEN-20: #dff0d8;
+    --ORANGE: #ce8602;
     --ORANGE-50: #f7bb4c;
+    --ORANGE-20: #fcf8e3;
+    --BLUE: #0000ff7e;
     --BLUE-50: #5353f1;
+    --BLUE-20: #d9edf7;
 
     --WHITE: #ffffff;
     --GRAY-80: #333333;
