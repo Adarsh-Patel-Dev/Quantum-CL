@@ -1,0 +1,153 @@
+@import url("/pages/docs.css");
+@import url("/button/button.css");
+/* cards */
+
+.card{
+    margin: auto;
+    width: 25rem;
+    height: auto;
+    border: 2px solid var(--GRAY-80);
+    background-color: var(--GRAY-20);
+    color: var(--BLACK-80);
+    border-radius: 5px;
+    padding: 0px;
+    font-weight: 400;
+    position: relative;
+}
+
+.card--badge{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: -2px;
+    top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.card--details{
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.img-fluid{
+    border-radius: 5px 5px 0px 0px;
+    margin-top: -10px;
+    width: 100%;
+    height: auto;
+}
+
+.card--image{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card--body{
+    padding: 0px 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.card--buttons{
+    
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.card--dismiss{
+    cursor: pointer;
+    display: block;
+   position: absolute;
+   color: var(--GRAY-80);
+   top:-7px;
+   right: 8px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+    display: block;
+}
+
+#overlay--text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--WHITE);
+    font-size: 30px;
+    font-weight: 100;
+    /* text-align: center; */
+}
+
+.card--text{
+    width: 40%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card--title{
+    margin-bottom: 10px;
+}
+
+
+.card--btn{
+  
+   margin: 10px;
+   padding: 5px 20px;
+}
+
+.card--para{
+    line-height: normal;
+    font-size: 14px;
+}
+
+.card--horizontal{
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(116, 116, 116, 0.53);
+    height: auto;
+    width: 50%;
+    max-width: 500px;
+    gap:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.divider--horizontal{
+    height: 100%;
+    width: 3px;
+    background-color: var(--BLUE);
+   z-index: 10;
+} 
