@@ -1,0 +1,87 @@
+@import url("/pages/docs.css");
+
+.input--container{
+    border: 1px solid var(--GRAY-80);
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    max-width: 80%;
+    width: auto; 
+    border-radius: 0.2rem;
+}
+
+.input-group{
+    width: 80%;
+    height: auto; ;
+    padding: 25px;
+}
+
+.input--text{
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--GRAY-20);
+    min-height: 30rem;
+    min-width: 60rem;
+}
+
+.input-text{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--GRAY-20);
+}
+
+.error-message{
+    width: 100%;
+    margin:  auto;
+    border: none;
+    color: var(--RED-50);
+    
+}
+
+
+
+.input-text:valid{
+    border: 2px solid var(--GREEN);
+    color: var(--GREEN);
+}
+
+.input-text:invalid{
+    border: 2px solid var(--RED);
+}
+
+.input--email{
+    width: 80%;
+    margin:  10px ;
+    padding: 10px;
+}
+
+.input--password{
+    width: 80%;
+    margin:  20px 0;
+    padding: 10px;
+}
+
+.input--submit{
+    width: auto;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--GRAY-20);
+    color: var(--GRAY-20);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.input--submit:hover{
+    font-weight: 500;
+    color: var(--GRAY-80);
+    background-color: var(--GREEN-50);
+    transition: 0.5s;
+}
