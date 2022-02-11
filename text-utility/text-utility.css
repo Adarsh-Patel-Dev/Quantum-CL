@@ -1,0 +1,95 @@
+@import url("/pages/docs.css");
+
+.text-utility-container{
+    border: 1px solid var(--GRAY-80);
+    padding: 1.5rem;
+    display: flex;
+   width: 85rem;
+   gap: 2rem;
+   flex-direction: column;
+    margin: 2rem;
+    border-radius: 0.2rem;
+}
+
+
+p{
+    color: var(--WHITE);
+}
+
+.text-muted{
+    color: var(--GRAY50);
+}
+
+.text-primary{
+    color: var(--BLUE-50);
+}
+
+.text-success{
+    color: var(--GREEN);
+}
+
+.text-info{
+    color: var(--BLUE-20);
+}
+
+.text-warning{
+    color: var(--ORANGE);   
+}
+
+.text-danger{
+    color: var(--RED);
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-overline{
+    text-decoration: overline;
+}
+
+.text-strikethrough{
+    text-decoration: line-through;
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+
+.text-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
