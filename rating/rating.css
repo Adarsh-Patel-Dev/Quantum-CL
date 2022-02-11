@@ -1,0 +1,29 @@
+@import url("/pages/docs.css");
+
+.rating--container{
+    border: 1px solid var(--GRAY-80);
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem;
+    width: auto;
+    border-radius: 0.2rem;
+}
+
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    gap: 0.2rem;
+}
+
+.checked{
+
+    color: var(--ORANGE);
+}
+
+.unchecked{
+    color: var(--GREY);
+}
