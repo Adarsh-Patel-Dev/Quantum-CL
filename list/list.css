@@ -1,0 +1,57 @@
+@import url("/pages/docs.css");
+
+/* lists */
+
+.list--container{
+    border: 1px solid var(--GRAY-80);
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    max-width: 80%;
+    width: auto; 
+    border-radius: 0.2rem;
+}
+
+.list--spaced{
+    background-color: var(--GRAY-80);
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 35%;
+    margin-left: 2rem;
+}
+
+li{
+    font-size: small;
+    font-weight: 300;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.check-title{
+    font-weight: 400;
+}
+
+.check-list{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--GRAY-80) ;
+    padding: 1.5rem;
+    width: 30%;
+}
+
+
+.spaced>li{
+    max-width:60%;
+    width: auto;
+    margin: 20px 0;
+    padding: 5px;
+    list-style: none;
+}
+
