@@ -16,6 +16,17 @@ p{
     color: var(--WHITE);
 }
 
+.small-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.gray-text{
+    color: var(--GRAY-50);
+    font-weight: 300;
+}
+
+
 .text-muted{
     color: var(--GRAY50);
 }
