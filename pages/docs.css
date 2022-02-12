@@ -79,6 +79,8 @@ iframe{
 .code--container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 62vh;
     width: 100%;
     padding: 1rem 0;

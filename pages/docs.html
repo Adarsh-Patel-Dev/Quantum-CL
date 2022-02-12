@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/src/prism/prism.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -139,13 +140,18 @@
                 <div class="divider"></div>
 
                 <h2 id="installation" class="intoduction--heading">Installation</h2>
-                <p class="introduction--para">In order to use JANUS UI in your project, copy the below links and paste
+                <p class="introduction--para">In order to use QUANTUM UI in your project, copy the below links and paste
                     it
-                    in the tag of your html, above all other style sheets.
+                    in the <code>head</code> tag of your html, above all other style sheets.
 
                 </p>
 
-                <code>carbon code goes here</code>
+                <div class="code--container">
+                <script type="text/plain" class="line-numbers language-markup">
+                    <link rel="stylesheet" 
+                    href="https://quantum-ui.netlify.app/css/components.css">
+                </script>
+            </div>
 
             </section>
 
@@ -162,11 +168,14 @@
 
                 <div class="code--container">
 
-                    <iframe
-                    src="https://carbon.now.sh/embed/f340xwLs2S2x08Jq0wJM"
-                    style="width: 353px; height: 304px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <h1>This is Heading</h1>
+                        <h2>This is Heading</h2>
+                        <h3>This is Heading</h3>
+                        <h4>This is Heading</h4>
+                        <h5>This is Heading</h5>
+                        <h6>This is Heading</h6>
+                    </script>
                 </div>
 
                 <div class="component--box">
@@ -209,7 +218,7 @@
 
 
     </div>
-
+    <script src="/src/prism/prism.js"></script>
 </body>
 
 
