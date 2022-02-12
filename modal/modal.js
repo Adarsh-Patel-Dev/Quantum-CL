@@ -5,7 +5,10 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 btn.addEventListener("click", function () {
-    modal.style.display = "block";})
+    modal.style.display = "block";
+
+});
+    
 
     
 span.onclick = function () {
