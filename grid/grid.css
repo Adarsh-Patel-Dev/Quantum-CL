@@ -1,0 +1,117 @@
+@import url("/pages/docs.css");
+
+/* grid */
+
+.grid--container {
+    border: 1px solid var(--GRAY-80);
+    padding: 1.5rem 2rem;
+    justify-content: space-around;
+    margin: 2rem;
+    width: auto;
+    border-radius: 0.2rem;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    /* max-width: 30%;
+    width: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.div1 {
+    padding: 4rem 2rem;
+    border: 2px solid var(--WHITE);
+    background-color: var(--BLACK-100);
+}
+
+.div2 {
+    border: 2px solid var(--WHITE);
+    background-color: var(--BLACK-60);
+}
+
+.div3 {
+    padding: 4rem 2rem;
+    border: 2px solid var(--WHITE);
+    background-color: var(--MAROON-80);
+}
+
+.div4 {
+    border: 2px solid var(--WHITE);
+    background-color: var(--GRAY-60);
+}
+
+.grid-three {
+    display: grid;
+    grid-template-columns: 1fr 60rem;
+    grid-template-rows: auto 10rem;
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+.grid-four {
+    display: grid;
+    grid-template-columns: 10rem 30rem 10rem 5rem;
+    grid-template-rows: 10rem 1fr 20rem 2fr;
+    grid-template-areas:
+        "div-2 div-2 div-2 div-2"
+        "div-1 div-3 div-4 div-4"
+        "div-1 div-3 div-4 div-4";
+    grid-gap: 2rem;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    padding: 2rem;
+
+}
+
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--WHITE);
+    background-color: var(--BLACK-100);
+    grid-area: div-1;
+}
+
+.div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--WHITE);
+    background-color: var(--BLACK-60);
+    grid-area: div-2;
+}
+
+.div-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--WHITE);
+    background-color: var(--MAROON-80);
+    grid-area: div-3;
+}
+
+.div-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--WHITE);
+    background-color: var(--GRAY-60);
+    grid-area: div-4;
+}
