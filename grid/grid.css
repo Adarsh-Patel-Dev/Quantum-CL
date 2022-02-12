@@ -59,7 +59,7 @@
 
 .grid-three {
     display: grid;
-    grid-template-columns: 1fr 60rem;
+    grid-template-columns: 1fr 10rem 1fr;
     grid-template-rows: auto 10rem;
     grid-gap: 2rem;
     padding: 2rem;
