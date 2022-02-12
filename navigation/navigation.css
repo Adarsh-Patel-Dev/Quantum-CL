@@ -1,0 +1,76 @@
+ @import url("/pages/docs.css");
+ @import url("/button/button.css");
+
+
+ .nav--container{
+    border: 1px solid var(--GRAY-20);
+    padding: 10px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.nav-bar{
+    display: display;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--BLACK-80);
+    color: var(--WHITE);
+    padding: 1rem 1.5rem;
+
+}
+
+.nav--body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--header{
+    display: inline;
+    align-items: baseline;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.nav--search{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav--search--input{
+    border-radius: 1rem;
+    border: none;
+    padding: 10px;
+}
+
+.nav--search--btn{
+    border: 1px solid var(--WHITE);
+    background-color: transparent;
+    color: var(--WHITE);
+    padding: 20px 30PX;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav--link{
+   text-decoration: none;
+   color: var(--WHITE);
+   transition: 0.5s;
+   font-weight: 300;
+}
+
+.nav--link:hover{
+    color: var(--GRAY-20);
+   transition: 0.5s;
+}
+.nav--list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav--item{
+    padding: 1.5rem;
+}
