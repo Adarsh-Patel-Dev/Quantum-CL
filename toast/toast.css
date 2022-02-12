@@ -1,0 +1,82 @@
+@import url("/pages/docs.css");
+
+/* Toast */
+
+
+.toast--container{
+    border: 1px solid var(--GRAY-80);
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    max-width: 80%;
+    width: auto; 
+    border-radius: 0.2rem;
+}
+
+.toast{
+    width: 40%;
+    margin:  1rem ;
+    background-color: var(--BLACK);
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color:var(--WHITE) ;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(116, 116, 116, 0.53);
+   
+}
+
+.toast--error{
+    border-left: 0.5rem solid var(--RED);
+}
+
+.toast--info{
+    border-left: 0.5rem solid var(--BLUE);
+}
+
+.toast--success{
+    border-left: 0.5rem solid var(--GREEN);
+}
+
+.toast--icon{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.toast--success{
+    color: var(--GREEN);
+}
+
+.toast--info{
+    color: var(--BLUE);
+}
+
+.toast--error{
+    color: var(--RED);
+}
+
+.toast--title{
+    font-size: 1.5rem;
+    font-weight: 600;
+  padding-top: 0;
+}
+
+
+.toast--close{
+    float: right;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.toast--body>p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 1rem;
+}
