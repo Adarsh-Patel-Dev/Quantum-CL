@@ -26,6 +26,11 @@
     /* justify-content: center; */
 }
 
+.navigation--logo{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
 
 
 .navigation--link {
