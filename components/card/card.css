@@ -142,6 +142,7 @@
 .card--para{
     line-height: normal;
     font-size: 14px;
+    color: var(--BLACK-80);
 }
 
 .card--horizontal{
