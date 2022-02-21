@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/colors/color.css">
     <link rel="stylesheet" href="/src/prism/prism.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,7 +61,7 @@
                         <a href="/pages/docs.html" class="aside--link">Typography</a>
                     </li>
                     <li class="aside--item">
-                        <a href="/colors/colors.html" class="aside--link">Colors</a>
+                        <a href="/pages/docs.html" class="aside--link">Colors</a>
                     </li>
                 </ul>
             </div>
@@ -135,84 +135,43 @@
 
         <main class="main--content">
             <section class="introduction">
-                <h2 class="intoduction--heading">Introduction</h2>
-                <p class="introduction--para">QUANTUM UI is an open source component library that provides pre-styled
-                    structured components that can be directly used to easily build clean UI for web applications. Its
-                    design system provides framework that is used to build consistent & elegant websites.</p>
-                <!-- <code>this</code> -->
-
+                <h2 class="intoduction--heading">Colors</h2>
+                <p class="introduction--para">QUANTUM UI uses following colors:</p>
+                
                 <div class="divider"></div>
+                <div class="colors">
 
-                <h2 id="installation" class="intoduction--heading">Installation</h2>
-                <p class="introduction--para">In order to use QUANTUM UI in your project, copy the below links and paste
-                    it
-                    in the <code>head</code> tag of your html, above all other style sheets.
+                    <div class="color-box white">--WHITE</div>
+                    <div class="color-box gray-20">--GRAY-20</div>
+                    <div class="color-box gray-40">--GRAY-40</div>
+                    <div class="color-box gray-50">--GRAY-50</div>
+                    <div class="color-box gray-80">--GRAY-80</div>
+                    <div class="color-box gray-60">--GREY-60</div>
+                    <div class="color-box black-60">--BLACK-60</div>
+                    <div class="color-box black-80">--BLACK-80</div>
+                    <div class="color-box black-100">--BLACK-100</div><br>
+                    <div class="color-box maroon-60">--MAROON-60</div>
+                    <div class="color-box maroon-80">--MAROON-80</div><br>
+                    <div class="color-box blue-20">--BLUE-20</div>
+                    <div class="color-box blue-50">--BLUE-50</div><br>
+                    <div class="color-box blue">--BLUE</div>
+                    <div class="color-box orange-20">--ORANGE-20</div><br>
+                    <div class="color-box orange-50">--ORANGE-50</div>
+                    <div class="color-box orange">--ORANGE</div>
+                    <div class="color-box green-20">--GREEN-20</div><br>
+                    <div class="color-box green-50">--GREEN-50</div>
+                    <div class="color-box green">--GREEN</div>
+                    <div class="color-box red-20">--RED-20</div><br>
+                    <div class="color-box red-50">--RED-50</div>
+                    <div class="color-box red">--RED</div>
 
-                </p>
-
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fquantum-ui.netlify.app%252Fcss%252Fcomponents.css%2522%253E"
-                    style="width: 780px; height: 217px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
+                </div>
+                
             </section>
 
             <div class="divider"></div>
 
-            <section id="typography">
-
-                <h2 class="intoduction--heading">Typography</h2>
-                <p class="introduction--para">CSS3 introduces a few new units, including the rem unit, which stands for
-                    "root em". The rem unit is relative to the font-size of the root element html . That means that we
-                    can define a single font size on the root element, and define all rem units to be a percentage of
-                    that. The typography has font-size defined in 1.6rem (16px) and line-height in 1.6 (24px). Quantum
-                    uses the font-family Montserrat, created by Christian Robertson, and provided by Google.</p>
-
-                <!-- <div class="code--container"> -->
-
-                    <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2509%2520%2520%253Ch1%253EThis%2520is%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2509%2509%2520%2520%253Ch2%253EThis%2520is%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EThis%2520is%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EThis%2520is%2520Heading%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EThis%2520is%2520Heading%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EThis%2520is%2520Heading%253C%252Fh6%253E"
-                    style="width: 418px; height: 269px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                <!-- </div> -->
-
-                <div class="component--box">
-                    <h1>This is Heading</h1>
-                    <div class="heading">
-                        <code>H1</code><small>4.6rem (46px)</small>
-                    </div>
-
-                    <h2>This is Heading</h2>
-                    <div class="heading">
-                        <code>H2</code><small>3.6rem (36px)</small>
-                    </div>
-
-                    <h3>This is Heading</h3>
-                    <div class="heading">
-                        <code>H3</code><small>2.8rem (28px)</small>
-                    </div>
-
-                    <h4>This is Heading</h4>
-                    <div class="heading">
-                        <code>H4</code><small>2.2rem (22px)</small>
-                    </div>
-
-                    <h5>This is Heading</h5>
-                    <div class="heading">
-                        <code>H5</code><small>1.8rem (18px)</small>
-                    </div>
-
-                    <h6>This is Heading</h6>
-                    <div class="heading">
-                        <code>H6</code><small>1.6rem (16px)</small>
-                    </div>
-
-                </div>
-
-
-            </section>
+            
 
         </main>
 

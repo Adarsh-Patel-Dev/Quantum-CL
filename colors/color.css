@@ -1,0 +1,137 @@
+@import url("/index.css");
+@import url("/pages/docs.css");
+
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+    width: auto;
+
+}
+
+.colors>*{
+    padding: 2rem 1rem;
+    font-weight: 400;
+}
+
+color-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.white{
+    background-color: var(--WHITE);
+    color: var(--BLACK-100);
+}
+
+.gray-20{
+    color: var(--BLACK-100);
+    background-color: var(--GRAY-20);
+}
+
+.gray-50{
+    color: var(--BLACK-100);
+    background-color: var(--GRAY-50);
+}
+
+.gray-40{
+    color: var(--BLACK-100);
+    background-color: var(--GRAY-40);
+}
+
+.gray-60{
+    color: var(--WHITE);
+    background-color: var(--GRAY-60);
+}
+
+.gray-80{
+    color: var(--BLACK-100);
+    background-color: var(--GRAY-80);
+}
+
+.black-80{
+    color: var(--WHITE);
+    background-color: var(--BLACK-80);
+}
+
+.black-60{
+    color: var(--WHITE);
+    background-color: var(--BLACK-60);
+
+}
+
+.black-100{
+    color: var(--WHITE);
+    background-color: var(--BLACK-100);
+}
+
+.maroon-60{
+    color: var(--WHITE);
+    background-color: var(--MAROON-60);
+}
+
+.maroon-80{
+    color: var(--WHITE);
+    background-color: var(--MAROON-80);
+}
+
+.blue-20{
+    color: var(--BLACK-100);
+    background-color: var(--BLUE-20);
+}
+
+.blue-50{
+    color: var(--WHITE);
+    background-color: var(--BLUE-50);
+}
+
+.blue{
+    color: var(--WHITE);
+    background-color: var(--BLUE);
+}
+
+.orange-20{
+    color: var(--BLACK-100);
+    background-color: var(--ORANGE-20);
+}
+
+.orange-50{
+    color: var(--WHITE);
+    background-color: var(--ORANGE-50);
+}
+
+.orange{
+    color: var(--WHITE);
+    background-color: var(--ORANGE);
+}
+
+.green-20{
+    color: var(--BLACK-100);
+    background-color: var(--GREEN-20);
+}
+
+.green-50{
+    color: var(--WHITE);
+    background-color: var(--GREEN-50);
+}
+
+.green{
+    color: var(--WHITE);
+    background-color: var(--GREEN);
+}
+
+.red-20{
+    color: var(--BLACK-100);
+    background-color: var(--RED-20);
+}
+
+.red-50{
+    color: var(--WHITE);
+    background-color: var(--RED-50);
+}
+
+.red{
+    color: var(--WHITE);
+    background-color: var(--RED);
+}

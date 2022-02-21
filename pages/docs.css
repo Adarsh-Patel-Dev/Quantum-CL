@@ -28,15 +28,17 @@ body {
     color: var(--WHITE);
     font-weight: 300;
     transition: 0.5s;
+    padding: 1rem 0rem;
+
 }
 
 .aside--link:hover {
     text-decoration: none;
     font-weight: 300;
-    color: var(--GRAY50);
+    padding: 1rem 3rem;
     transition: 0.5s;
-    border: none;
-    border-bottom: 2px solid var(--GRAY50);
+    border: 1px solid var(--GRAY-20);
+    background-color: var(--MAROON-60);
 
 }
 
