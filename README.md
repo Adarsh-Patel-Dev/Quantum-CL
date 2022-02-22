@@ -2,7 +2,7 @@
 
 QUANTUM UI is Open Source Component library which is used to create UI with pre-defined structure and styling.
 
-Live link : [Quantum UI](https://quantum-ui.netlify.app)
+Live link : [Quantum UI](https://quantum-cl.netlify.app/)
 
 ## Technology Used
 
