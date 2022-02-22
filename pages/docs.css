@@ -6,15 +6,17 @@ body {
 }
 
 .aside--container {
+    width: 100rem;
+    overflow-y: auto;
+    overflow-x: clip;
+    height: calc(100vh - 6.24rem);
     display: flex;
     flex-direction: column;
-    max-width: 40rem;
-    height: auto;
-    left: 0px;
+    margin-top: 1px;
     padding: 0rem 4rem 1rem 4rem;
     color: white;
+    background: linear-gradient(184.47deg, #151515 -1.58%, #010101 120.78%);
 
-    background: linear-gradient(184.47deg, #151515 -1.58%, #010101 120.78%)
 }
 
 .aside--title {
@@ -32,20 +34,27 @@ body {
 
 }
 
+.active-link{
+    color: rgb(128, 74, 74);
+    font-weight: 400;
+}
+
 .aside--link:hover {
     text-decoration: none;
     font-weight: 300;
     padding: 1rem 3rem;
     transition: 0.5s;
-    border: 1px solid var(--GRAY-20);
-    background-color: var(--MAROON-60);
+    border: 1px solid rgb(128, 74, 74);;
+    /* background-color: var(--MAROON-60); */
 
 }
 
 .aside--item {
+    width: 11rem;
     font-size: 1.5rem;
     padding: 1.2rem;
 }
+
 
 .divider {
 
@@ -77,20 +86,18 @@ iframe{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 60%;
 }
 .code--container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 62vh;
-    width: 100%;
-    padding: 1rem 0;
-    background-color: #1B1B1B;
-    color: white;
+    height: auto;
 }
 
 .main--content{
+    overflow-y: auto;
+    height: calc(100vh - 7rem);
     font-size: 2rem;
     font-weight: lighter;
     margin-left: 3rem;
@@ -142,3 +149,25 @@ h5{
 h6{
     font-size: 16px;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  

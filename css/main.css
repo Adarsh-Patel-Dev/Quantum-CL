@@ -48,3 +48,9 @@ a {
 li{
     list-style: none;
 }
+
+.active-link{
+    color: var(--MAROON-60);
+    font-weight: 400;
+}
+
