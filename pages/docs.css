@@ -6,13 +6,11 @@ body {
 }
 
 .aside--container {
-    width: 100rem;
-    overflow-y: auto;
-    overflow-x: clip;
-    height: calc(100vh - 6.24rem);
     display: flex;
     flex-direction: column;
-    margin-top: 1px;
+    max-width: 40rem;
+    height: auto;
+    left: 0px;
     padding: 0rem 4rem 1rem 4rem;
     color: white;
     background: linear-gradient(184.47deg, #151515 -1.58%, #010101 120.78%);
@@ -171,3 +169,31 @@ h6{
   }
 
   
+@media only screen and (max-width: 600px){
+    body{
+        font-size: 40%;
+    }
+
+    .body--container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      color: inherit;
+  }
+
+  .navigation--list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      list-style: none;
+  }
+
+  .navigation--title{
+      text-align: center;
+      font-size: 2.5rem;
+      display: flex;
+      justify-content: center;
+        align-items: center;
+  }
+}

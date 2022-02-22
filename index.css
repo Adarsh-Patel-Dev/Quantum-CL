@@ -85,11 +85,8 @@ body {
 }
 
 
-/*main-content*/
 
-.body--container{
-    background-color: #8f8e8e;
-}
+
 
 .main--container {
     position: absolute;
@@ -184,7 +181,7 @@ button {
     gap: 20px;
 }
 
-
+/* 
 @media only screen and (max-width: 600px){
     body{
         font-size: 10%;
@@ -212,4 +209,4 @@ button {
       justify-content: center;
         align-items: center;
   }
-}
+} */
