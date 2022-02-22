@@ -41,7 +41,7 @@
   }
 
   .close {
-    color: var(--GRAY-80);
+    color: var(--WHITE);
     float: right;
     font-size: 28px;
     font-weight: bold;
