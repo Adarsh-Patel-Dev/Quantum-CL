@@ -101,7 +101,8 @@ iframe{
     font-size: 2rem;
     font-weight: lighter;
     margin-left: 3rem;
-    color: rgb(177, 174, 174);
+    color: var(--GRAY-20);
+    /* background-color: #1B1B1B; */
     padding: 20px;
     /* margin: 3rem; */
 }
