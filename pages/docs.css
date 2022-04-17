@@ -35,7 +35,7 @@ body {
 }
 
 .active-link{
-    color: rgb(128, 74, 74);
+    color: rgba(0,255,255,0.7);
     font-weight: 400;
    }
 
@@ -45,7 +45,7 @@ body {
     padding: 1rem 0rem;
 
     transition: 0.5s;
-    color: rgb(128, 74, 74);
+    color: rgba(0,255,255,0.7);
     
 
 }
@@ -102,7 +102,7 @@ iframe{
     font-size: 2rem;
     font-weight: lighter;
     margin-left: 3rem;
-    color: rgb(177, 174, 174);
+    color: var(--WHITE);
     padding: 20px;
     /* margin: 3rem; */
 }
