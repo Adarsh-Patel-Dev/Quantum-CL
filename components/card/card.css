@@ -1,18 +1,39 @@
 @import url("/pages/docs.css");
 @import url("/button/button.css");
 /* cards */
+.cards{
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: rgb(242,242,244);
+}
 
+.category-subheading{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: var(--GRAY-80);
+    width: auto;
+}
+
+.category-header{
+    background-color: rgb(242,242,244);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
 .card--container{
     background-color: var(--WHITE);
-    padding: 20PX;
-    width: 100%;
-    margin: auto;
+    width: auto;
+    margin: 1rem;
 }
 .card{
-    margin: auto;
     width: 25rem;
     height: auto;
-    /* border: 2px solid var(--GRAY-80); */
     background-color: var(--WHITE);
     color: var(--BLACK-80);
     border-radius: 5px;
@@ -30,20 +51,37 @@
     top: 10px;
     width: 100px;
     height: 25px;
-    background-color: purple;
+    background-color: var(--ORANGE);
     padding: 5px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0 10px 10px 0;
     color: #fff;
     font-size: 14px;
 }
 
+.wishlist--badge{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 13px;
+    top: 0px;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: var(--WHITE);
+    border-radius: 8rem;
+    color: #fff;
+}
+
 .card--details{
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
     padding: 5px 0;
 }
 
 .img-fluid{
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0 0;
     margin-top: -10px;
     width: 100%;
     height: auto;
@@ -70,12 +108,104 @@
     height: 100%;
 }
 
+.card-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.card--title{
+    font-size: 1.5rem;
+}
+
+.card--description{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--BLACK-100);
+}
+
+.card--delivery--msg{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.badge-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--WHITE);
+    background-color: var(--GREEN-80);
+    width: 3.5rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.card-price{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.price-original{
+    font-weight: 600;
+    color: var(--GRAY-50);
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+.discount{
+    color: green;
+}
+
+
 .card--buttons{
    
     display: flex;
     gap: 25px;
     justify-content: flex-end;
     padding: 1rem;
+}
+
+.card--buttons>*{
+    font-weight: 600;
+    color: var(--BLACK-80);
+}
+/*---------------*/
+.card--container{
+    background-color: var(--WHITE);
+    padding: 20PX;
+    width: 100%;
+    margin: auto;
+}
+.card{
+    margin: auto;
+    width: 25rem;
+    height: auto;
+    background-color: var(--WHITE);
+    color: var(--BLACK-80);
+    border-radius: 5px;
+    padding: 0px;
+    font-weight: 400;
+    position: relative;
+    box-shadow: 0px 0px 15px #706d6d;
+}
+
+.card--badge{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0px;
+    top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    font-size: 14px;
 }
 
 .card--buttons>*{
@@ -145,13 +275,11 @@
     color: var(--BLACK-80);
 }
 
-.card--horizontal{
+.card--horizontal {
     border: none;
     box-shadow: 0px 0px 10px 0px rgba(116, 116, 116, 0.53);
-    height: auto;
-    width: 50%;
-    max-width: 500px;
-    gap:15px;
+    max-width: 330px;
+    gap: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,9 +287,12 @@
     padding: 0px;
 }
 
+
+
 .divider--horizontal{
     height: 100%;
     width: 3px;
     background-color: var(--BLUE);
    z-index: 10;
 } 
+

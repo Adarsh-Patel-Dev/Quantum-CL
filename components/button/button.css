@@ -131,6 +131,9 @@
 }
 
 .my-float {
-    margin-top: 10px;
-}
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
 
+}
