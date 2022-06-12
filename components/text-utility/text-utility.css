@@ -1,6 +1,7 @@
 @import url("/pages/docs.css");
 
 .text-utility-container{
+    font-weight: 300;
     border: 1px solid var(--GRAY-80);
     padding: 1.5rem;
     display: flex;

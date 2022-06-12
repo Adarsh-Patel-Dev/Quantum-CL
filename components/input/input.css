@@ -18,15 +18,16 @@
     padding: 25px;
 }
 
-.input--text{
-    padding: 1rem;
+.input--text {
+    padding: 3rem;
     border-radius: 5px;
     border: 1px solid var(--GRAY-20);
-    min-height: 30rem;
-    min-width: 60rem;
+    height: 19rem;
+    width: 100%;
 }
 
 .input-text{
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     background-color: transparent;

@@ -2,17 +2,6 @@
 
 /********************* avatar*************** */
 
-
-.main--content--introduction{
-    color: var(--WHITE);
-   font-weight: lighter;
-   font-size: large;
-   padding: 2rem;
-   margin-left: 2rem;
-}
-
-
-
 .avatar--container {
     border: 1px solid var(--GRAY-80);
     padding: 1rem;
@@ -27,14 +16,16 @@
 
 .avatar {
     width: 7rem;
-    height: 7rem;
+    height: auto;
     border-radius: 50%;
     margin: 0 auto;
 }
-
+.avatar--wrapper{
+    aspect-ratio: 1/1;
+}
 .avatar--small {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .avatar--large {
@@ -57,6 +48,7 @@
 }
 
 .avatar--text {
+    aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;

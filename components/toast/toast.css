@@ -30,35 +30,25 @@
    
 }
 
-.toast--error{
-    border-left: 0.5rem solid var(--RED);
-}
-
-.toast--info{
-    border-left: 0.5rem solid var(--BLUE);
-}
-
-.toast--success{
-    border-left: 0.5rem solid var(--GREEN);
-}
-
 .toast--icon{
     font-size: 2rem;
     padding: 0.5rem;
     border-radius: 50%;
     text-align: center;
 }
-
-.toast--success{
-    color: var(--GREEN);
+.toast--error{
+    border-left: 0.5rem solid var(--RED);
+    color: var(--RED);
 }
 
 .toast--info{
+    border-left: 0.5rem solid var(--BLUE);
     color: var(--BLUE);
 }
 
-.toast--error{
-    color: var(--RED);
+.toast--success{
+    border-left: 0.5rem solid var(--GREEN-80);
+    color: var(--GREEN-80);
 }
 
 .toast--title{

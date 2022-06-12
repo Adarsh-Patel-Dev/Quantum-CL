@@ -36,7 +36,7 @@
 }
 
 .badge--offline{
-    background-color: var(--GRAY50);
+    background-color: var(--GRAY-50);
 }
 
 .badge--dnd{
