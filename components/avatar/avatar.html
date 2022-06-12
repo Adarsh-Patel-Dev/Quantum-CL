@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="/assets/quantum ui logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/components/avatar/avatar.css">
     <link rel="stylesheet" href="/src/prism/prism.css" />
@@ -11,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>QUANTUM UI | Docs</title>
+    <title>QUANTUM UI | Avatar</title>
 </head>
 
 <body>
@@ -117,15 +118,11 @@
                     <li class="aside--item">
                         <a href="/components/grid/grid.html" class="aside--link">Grid</a>
                     </li>
+
                     <li class="aside--item">
-                        <a href="#" class="aside--link">Sub Menu</a>
+                        <a href="/components/slider/slider.html" class="aside--link">Slider</a>
                     </li>
-                    <li class="aside--item">
-                        <a href="#" class="aside--link">Slider</a>
-                    </li>
-                    <li class="aside--item">
-                        <a href="#" class="aside--link">Drawer</a>
-                    </li>
+
                 </ul>
             </div>
 
@@ -134,7 +131,7 @@
 
         <!---------------------  main-content -------------------------->
 
-        <main class="main--content--introduction">
+        <main class="main--content">
 
             <section id="avatar--section">
 
@@ -152,22 +149,22 @@
                     the img tag.</p>
                 <div class="avatar--container">
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
                     </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
                     </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
                     </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
 
@@ -186,33 +183,33 @@
                 <!---------------------- Avatar variants-------------------->
 
                 <h2 class="intoduction--heading">Sizes of Avatar</h2>
-                <p class="introduction--para">Size of the avatars can be changed by adding <code>avatar--large</code>
+                <p class="introduction--para">Size of the avatars can be changed by adding <code>avatar--small</code> <code>avatar--large</code>
                     <code>avatar--xlarge</code> <code>avatar avatar--xxlarge</code> class to the existing avatar class.
                 </p>
 
                 <div class="avatar--container">
 
-                    <!-- <div>
+                    <div>
                         <img class="avatar avatar--small"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
-                    </div> -->
+                    </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
                     </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar avatar--large"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
                     </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar avatar--xlarge"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
                     </div>
 
-                    <div>
+                    <div class="avatar--wrapper">
                         <img class="avatar avatar--xxlarge"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
 
@@ -222,8 +219,8 @@
 
                 <div class="code--container">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2522src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--large%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--xlarge%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--xxlarge%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E"
-                        style="width: 705px; height: 287px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--small%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%2520%2509%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2522src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--large%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--xlarge%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar--xxlarge%2522%2520src%253D%2522%252F%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E"
+                        style="width: 740px; height: 360px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -239,10 +236,10 @@
 
                 <div class="avatar--container">
 
-                    <!-- <div>
+                    <div>
                         <img class="avatar avatar--small square"
                             src="https://i.pinimg.com/564x/dd/f4/ea/ddf4eacd7191bbb1bd98b8ca9ec5f900.jpg" alt="">
-                    </div> -->
+                    </div>
 
                     <div>
                         <img class="avatar square"

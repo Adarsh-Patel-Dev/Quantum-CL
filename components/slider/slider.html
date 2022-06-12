@@ -7,12 +7,12 @@
     <link rel="icon" type="image/x-icon" href="/assets/quantum ui logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/components/rating/rating.css">
+    <link rel="stylesheet" href="/components/slider/slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>QUANTUM UI | Rating</title>
+    <title>QUANTUM UI | Slider</title>
 </head>
 
 <body>
@@ -117,7 +117,7 @@
                         <a href="/components/grid/grid.html" class="aside--link">Grid</a>
                     </li>
                      
-                     <li class="aside--item">
+                    <li class="aside--item">
                         <a href="/components/slider/slider.html" class="aside--link">Slider</a>
                     </li>
                      
@@ -131,44 +131,53 @@
 
         <main class="main--content">
 
-            <h2 class="intoduction--heading">Rating</h2>
+            <h2 class="intoduction--heading">Slider</h2>
             <p class="introduction--para">
-                Rating is a component that can be used to rate something. It allows users to easily view and set rating
-                that reflect degree of satisfaction with content and services.
-            </p>
+                Slider is a input element of type "range". It defines a control for entering a number. It allows users to easily input values in range by sliding the slider.   Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the following attributes.
+                <br/>
+                <br/>
+                    max - specifies the maximum value allowed
+                <br/>
+                min - specifies the minimum value allowed
+                <br/>
+                step - specifies the legal number intervals
+                
+                <br/>
+                    value - Specifies the default value
+                </p>
+
             <div class="divider"></div>
-            <!----------------------Rating-------------------->
+            <!----------------------Slider-------------------->
 
-            <div class="rating--container">
-                <div class="rating">
-                    <span class="rating--title">Rating Title</span>
-                    <div class="rating--body">
-
-                        <i class="fas fa-star checked"></i>
-
-                        <i class="fas fa-star checked"></i>
-
-                        <i class="fas fa-star checked"></i>
-
-                        <i class="fas fa-star unchecked"></i>
-
-                        <i class="fas fa-star unchecked"></i>
-
-                    </div>
-                </div>
+                <div class="slidecontainer">
+                    <h4>Default range slider</h4>
+                    <input type="range" min="1" max="100" value="50" >
+                    
+                    <h4>Custom range slider</h4>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <p>Value: <span id="demo"></span></p>
 
                 <div class="code--container">
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=55px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522rating--body%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520unchecked%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520unchecked%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 510px; height: 399px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%2520id%253D%2522myRange%2522%253E"
+  style="width: 833px; height: 248px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
                   </iframe>
                 </div>
 
             </div>
         </main>
     </div>
-
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+        </script>
 </body>
 
 </html>
