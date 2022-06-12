@@ -53,6 +53,10 @@ Live link : [Quantum UI](https://quantum-cl.netlify.app/)
   - Spaced Lists
   
 - Navigation
+  - Basic Navigation Bar
+  - Navigation Bar with search
+  - Navigation Bar with submenu
+  - Navigation Bar with drawer
 
 - Modal
 
