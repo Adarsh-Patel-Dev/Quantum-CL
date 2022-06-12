@@ -64,7 +64,7 @@ Live link : [Quantum UI](https://quantum-cl.netlify.app/)
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">`
   - Quantum UI components.css :
 `<link rel="stylesheet" 
-                    href="https://quantum-ui.netlify.app/css/components.css">`
+                    href="https://quantum-cl.netlify.app/css/component.css">`
 
 - Copy HTML of the required component that you want to use in your project.
 - And you are done! Quantum UI Components will be available in your project! 
